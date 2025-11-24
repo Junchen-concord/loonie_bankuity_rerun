@@ -701,7 +701,7 @@ async def process_csv_file_parallel(
 
         # Apply test mode filter
         if test_mode:
-            df = df.head(min(10, len(df)))
+            df = df.head(min(50, len(df)))
             logger.info("Test mode enabled - processing only first 10 rows")
 
         initial_count = len(df)
