@@ -15,6 +15,7 @@ bankuityRerun_sql_files/
 OLDmodel_logs_data/
 rerun_output_data/
 rerun_output_JSONs/
+rerun_output_JSONs_V2/
 # Packaging
 *.egg-info/
 build/
