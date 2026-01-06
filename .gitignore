@@ -16,6 +16,7 @@ OLDmodel_logs_data/
 rerun_output_data/
 rerun_output_JSONs/
 rerun_output_JSONs_V2/
+misc_out_data/
 # Packaging
 *.egg-info/
 build/
