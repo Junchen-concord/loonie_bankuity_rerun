@@ -1,1 +1,3003 @@
-M00:1000;M00:034;;LA:1000;PL:34.12;
+{
+    "Model1Score": "597",
+    "Model6Score": "0",
+    "Model3Score": "750",
+    "NDBand": "3",
+    "IBVBand": "4",
+    "NDBand": "597",
+    "IBVBand": "750",
+    "Sys_reqAmt": "750",
+    "Sys_Time": "1/12/2026 7:59:46 PM",
+    "Sys_payfreq": "B",
+    "NDB": {
+        "accountnumber": 68812,
+        "search_query_id": "176826598177384338482024",
+        "results": [
+            {
+                "id": "176326314416021917120943",
+                "lender": "Loans My Pay Roll",
+                "requestId": "6466a42b-9a46-423f-8a9f-583dfc697145",
+                "type": "loan-request",
+                "referenceId": null,
+                "customerReferenceId": null,
+                "firstName": "Patrick",
+                "lastName": "Comia",
+                "dateOfBirth": "1990-06-12",
+                "address": {
+                    "streetAddressLine1": "62 Hunt Ave",
+                    "streetAddressLine2": null,
+                    "city": "Winnipeg",
+                    "country": "CA",
+                    "stateProvince": "MB",
+                    "zipPostalCode": "R2R 1M3",
+                    "effectiveDate": null
+                },
+                "phone1": "2045093887",
+                "phone2": null,
+                "fax": null,
+                "email": "comia.patrick@gmail.com",
+                "job": {
+                    "companyName": "Canada Life",
+                    "companyPhone": "8666650551",
+                    "supervisorName": "Vanessa",
+                    "jobTitle": "Senior Claim Examiner",
+                    "payFrequency": "biweekly",
+                    "payNext": "2025-11-28",
+                    "startDate": "2024-01-20"
+                },
+                "references": [
+                    {
+                        "firstName": "Joeffrey",
+                        "lastName": "Comia",
+                        "phone": "2049990926",
+                        "email": null,
+                        "relationship": "Brother"
+                    },
+                    {
+                        "firstName": "Scott",
+                        "lastName": "Duong",
+                        "phone": "2049790789",
+                        "email": null,
+                        "relationship": "Friend"
+                    }
+                ],
+                "amount": 500,
+                "balance": null,
+                "requestDate": "2025-11-15T22:19:04.000Z",
+                "ipAddress": "2604:3d09:cd6f:9f00:f478:cd3e:d3ec:39fc",
+                "language": "EN",
+                "language_id": 1,
+                "status": "refused",
+                "comments": null,
+                "statusHistory": [
+                    {
+                        "status": "new",
+                        "date": "2025-11-15T22:19:04.000Z",
+                        "comments": null,
+                        "reason": null
+                    },
+                    {
+                        "status": "refused",
+                        "date": "2025-11-16T13:00:34.387Z",
+                        "comments": null,
+                        "reason": "no-capacity"
+                    }
+                ],
+                "canRenew": false,
+                "renewalUrl": null,
+                "canSolicit": true,
+                "snoozeUntil": null,
+                "revisions": 1,
+                "createdAt": "2025-11-16T03:19:04.000Z",
+                "lastUpdatedAt": "2025-11-16T13:00:36.000Z"
+            }
+        ],
+        "count": 1,
+        "pages": 1,
+        "total_count": 1,
+        "score": {
+            "scoreEnabled": false,
+            "score": null,
+            "reasons": []
+        },
+        "score_requested": true,
+        "billed": true,
+        "cached": false,
+        "created_at": "2026-01-13T00:59:43.978Z",
+        "updated_at": null,
+        "query": {
+            "referenceId": null,
+            "firstName": "patrick",
+            "lastName": "comia",
+            "dateOfBirth": "1990-06-12",
+            "phone": "12045093887",
+            "email": "comia.patrick@gmail.com",
+            "ipAddress": null,
+            "accuracy": 2,
+            "score": true,
+            "track": false
+        }
+    },
+    "Historical_Transactions": [
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778392982 Payper Inc.",
+            "transaction_id": "3528f0b6-7432-4432-84fd-414feae0f09f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           601204758622 10.00 CAD @ 1.000000",
+            "transaction_id": "3fafdf09-553f-4274-bd3e-0e144a907120",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105777518717 Payper Inc.",
+            "transaction_id": "4886839e-8de5-42c8-9aa5-645fb57bbc7f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778370746 Payper Inc.",
+            "transaction_id": "4ce913fa-6890-463c-a85d-23e3be8f86c5",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778631187 Payper Inc.",
+            "transaction_id": "51d9450e-cf41-4d4a-b6fb-3788a556113d",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000200340",
+            "transaction_id": "570cc98d-cdfb-4b02-b104-7a4b62dceaf6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -100.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778387160 Payper Inc.",
+            "transaction_id": "5f71a909-ae98-42ea-a06d-eb5b2ae1c8d3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778383026 Payper Inc.",
+            "transaction_id": "5fc08faf-7637-4b17-8835-0c50a88a9f18",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           601102600201 25.00 CAD @ 1.000000",
+            "transaction_id": "6864f8e8-e6d6-4bec-8e58-47e7d0ff7141",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778362730 Payper Inc.",
+            "transaction_id": "8065ea04-9b2c-4405-8d8a-1dd044946e18",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit VISA DIRECT CREDIT Bree*Loan         601022716624",
+            "transaction_id": "7f87706d-377b-44fa-b9ec-ac943afdda26",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 275.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           601022525693 20.00 CAD @ 1.000000",
+            "transaction_id": "896ea3ec-92b6-4529-bceb-04f5b7b53f08",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           601203080663 25.00 CAD @ 1.000000",
+            "transaction_id": "89abc67f-6099-4ae9-9c43-02ed0fa1e2c5",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - INTERAC RETAIL PURCHASE   601013366773 DOLLARAMA # 430",
+            "transaction_id": "a6539d71-61a9-4223-a671-37daedd53939",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -7.84,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105777489954 Payper Inc.",
+            "transaction_id": "a7154d65-5953-44e0-a693-3ee9b2d2c111",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        105778391943 Gilda Dela Cruz",
+            "transaction_id": "a896bb0a-7146-4874-93df-21f165bf5838",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -200.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000221039",
+            "transaction_id": "bd489523-2a1f-4eba-a71d-9e526441b9c6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -250.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011471395380 FINCENTIFY INC.",
+            "transaction_id": "d323e31c-e7ae-4027-a966-5ae46bbde691",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 55.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           601002799429 30.00 CAD @ 1.000000",
+            "transaction_id": "d5b9df7a-fc8c-4c0e-9e9d-358e5089db7e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -30.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105779769580 Payper Inc.",
+            "transaction_id": "e61ab750-94c2-4570-a7f2-632f5e6ab051",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105778622345 Payper Inc.",
+            "transaction_id": "eae935b1-ad60-44f0-a7e3-76ef7eb44e8b",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105777214598 Payper Inc.",
+            "transaction_id": "e348699c-4813-48bb-8046-fa4072d0ffd1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-12T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT 000000000000000 MOGOMONEY 1 800 980 6646",
+            "transaction_id": "e0b11833-5048-476f-8992-ddc5883b7786",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -15.82,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600922283729 20.00 CAD @ 1.000000",
+            "transaction_id": "8ca198b4-a1dd-45be-b67e-0f26cb5a606a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PAY 09007717/202601 Canada Life (Canada)",
+            "transaction_id": "900b1ec3-6fe8-4367-a49e-14780cda7feb",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 1373.80,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000212812",
+            "transaction_id": "735287e5-930d-4c40-b150-797c0eb4b933",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -1.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit VISA DEBIT RETAIL  PURCHASE Nyble             600914751274",
+            "transaction_id": "55dc2601-17e4-460e-bbb7-0ea0e2f801b0",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -50.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT LENDDIRECT CORP",
+            "transaction_id": "55f2b261-12c6-41e2-a63b-7a20ae4a5576",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -69.95,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit VISA DEBIT RETAIL  PURCHASE Bree*Loan         600908802249",
+            "transaction_id": "45343bdd-693a-4815-9290-9df260993056",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -202.99,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000219949",
+            "transaction_id": "2e9e1215-15cf-4d6f-961e-c16dfd8bedd7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -50.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT 16308037 ICASH",
+            "transaction_id": "16e375c2-2448-4277-bbe3-315c79a143cd",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -190.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT Easyhome easyfinancial",
+            "transaction_id": "1831f584-0087-4abd-962c-03c29202634b",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -226.99,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-09T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000108737",
+            "transaction_id": "0667cc02-26b2-4c9c-bd8f-02286b29384a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -1.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-07T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772307298 Payper Inc.",
+            "transaction_id": "10b6cf3f-2550-48be-a0be-a059a66c64c1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772077143 Payper Inc.",
+            "transaction_id": "5090980c-ce62-424b-960c-573cf0ae0582",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772311746 Payper Inc.",
+            "transaction_id": "4f5b8c39-2163-41e5-97e9-3b3d0503bfb0",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772321529 Payper Inc.",
+            "transaction_id": "b8a6965e-e19c-4078-b0d1-be871fb27a05",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772110847 Payper Inc.",
+            "transaction_id": "b8c5c32d-6b92-41f1-8669-af945b9a86c2",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600601408119 20.00 CAD @ 1.000000",
+            "transaction_id": "f0be260a-3848-4ad0-ac97-1dfa359cd6a4",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105772061457 Payper Inc.",
+            "transaction_id": "fb409d54-7b76-4f5b-9671-3fdbef71623e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771976770 Payper Inc.",
+            "transaction_id": "f1c170d7-a086-4bc7-aafe-acf9bdef4319",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771985261 Payper Inc.",
+            "transaction_id": "d7fd3b61-0510-48d8-bc55-7f7db4836f8a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771956692 Payper Inc.",
+            "transaction_id": "de132bb2-855c-4d5b-9665-e90e3d3f576b",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600621661579 10.00 CAD @ 1.000000",
+            "transaction_id": "e08f8e9b-89e5-49ae-b2de-657da50bb450",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-06T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770992232 Payper Inc.",
+            "transaction_id": "ddafaadd-667c-4ad0-b549-9e221f5bd3f6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768085805 Payper Inc.",
+            "transaction_id": "dec14f47-55b3-4d4b-a600-b7b9640f4e47",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600421950781 20.00 CAD @ 1.000000",
+            "transaction_id": "c80c8664-0855-4d29-b7f2-9d9a5202e3f9",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770996595 Payper Inc.",
+            "transaction_id": "cb086575-ca37-4480-88f7-92014dabdeda",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770186009 Payper Inc.",
+            "transaction_id": "d026dc80-2bc5-4c96-b64e-0e78528fc8be",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600522125000 20.00 CAD @ 1.000000",
+            "transaction_id": "e992a675-4e39-4bf5-a04e-4f38de0eb7f8",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771681932 Payper Inc.",
+            "transaction_id": "e7412979-d66e-4c33-893f-e9a9be69ae7f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600516466859 10.00 CAD @ 1.000000",
+            "transaction_id": "ef5ff288-937a-494b-8dcb-394420388ae9",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000131702",
+            "transaction_id": "e4fac7c9-0826-46ba-b5e9-14a51539b266",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -170.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011465044568 Payper Inc.",
+            "transaction_id": "e0bd6f99-0113-4e3c-b3ab-b35443e7b78e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 500.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011533171035 Payper Inc.",
+            "transaction_id": "b406a80e-4864-4f76-8ab0-cf2ab0f85653",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 270.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770976205 Payper Inc.",
+            "transaction_id": "8c8b2006-9a8d-42f4-88a2-65410d09c87e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770997716 Payper Inc.",
+            "transaction_id": "8b8a121b-97ad-40be-8d18-fd1f8fd3151a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770164924 Payper Inc.",
+            "transaction_id": "86326255-616d-4756-8748-4658f956bc95",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000109386",
+            "transaction_id": "9892b6bc-a68f-421b-bfa8-f89498874fe3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -300.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770995612 Payper Inc.",
+            "transaction_id": "9b93a52b-1971-45b9-9332-a69633d99869",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770993258 Payper Inc.",
+            "transaction_id": "9db32a70-bfe7-445d-9fc5-f3f6d0aed2f9",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770994811 Payper Inc.",
+            "transaction_id": "a100c56b-3c53-44ef-bd07-937401767d2e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768548896 Payper Inc.",
+            "transaction_id": "a3c4c721-3f4f-4c05-932d-c0b40b8a6c69",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600322268597 20.00 CAD @ 1.000000",
+            "transaction_id": "4a9689c6-9ec7-4ffb-8ba7-3a41ad833385",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600302217497 10.00 CAD @ 1.000000",
+            "transaction_id": "54fceb98-275b-4174-abfb-cee838e49e14",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771472069 Canadian Tire Bank",
+            "transaction_id": "630b6f62-7d0e-4afd-80cb-2abcdb9b4361",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768536562 Payper Inc.",
+            "transaction_id": "73dbb486-4308-4824-afc1-6daf7244de38",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600501849989 20.00 CAD @ 1.000000",
+            "transaction_id": "74312734-6743-43a8-b0b2-d73de6631a52",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105769896373 Payper Inc.",
+            "transaction_id": "67890b04-2b85-47d3-84a7-566386f726aa",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768455920 Payper Inc.",
+            "transaction_id": "688a2f98-3f0e-4e13-a692-c9683fd3f0fc",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770999613 Payper Inc.",
+            "transaction_id": "6adb286c-231e-4280-8680-0b609205a555",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600404702360 10.00 CAD @ 1.000000",
+            "transaction_id": "6cf13c96-d414-4e7e-ba59-324be77ed190",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer DEPOSIT TPS/GST",
+            "transaction_id": "830d0c00-29d7-47e0-a7e1-7e717672a0f1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 133.25,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000127658",
+            "transaction_id": "76a765c3-a2c0-49d7-acc4-2af805e11f90",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -80.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768433385 Payper Inc.",
+            "transaction_id": "0d3f32bb-2b33-4473-a224-1351fb781b7e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET BILL PAY 000000138516 MASTERCARD, CAPITAL ONE",
+            "transaction_id": "08488794-9a1e-42df-9aad-d80ff714fe39",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600321717590 20.00 CAD @ 1.000000",
+            "transaction_id": "134483db-106b-4972-ba5d-b53d4203bd32",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105768532206 Payper Inc.",
+            "transaction_id": "16be0f31-74c1-4348-91e8-3626e49f9887",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000122036",
+            "transaction_id": "23fed788-aab3-4387-ab2e-2c2270c2c056",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -50.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105770983055 Payper Inc.",
+            "transaction_id": "3461ae0b-dcfa-4e2d-b1fa-e79b145e2b5c",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771840670 Payper Inc.",
+            "transaction_id": "30682c34-d77d-4141-82fd-3580d866b5fd",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105771491948 Payper Inc.",
+            "transaction_id": "30d47143-fee7-47ed-a64d-69276403b3a6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-05T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011463485422 JOEFFREY COMIA",
+            "transaction_id": "16ed656c-dfdc-44a2-ab09-468b72704985",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 115.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105767938383 Payper Inc.",
+            "transaction_id": "48f51014-7f95-4013-bdd9-e676484a78a6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600216283943 20.00 CAD @ 1.000000",
+            "transaction_id": "a200bbc8-f547-4866-855b-e599c84ff1b7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105767524237 Payper Inc.",
+            "transaction_id": "9ffa25b0-82d2-499c-8c26-f965593e0d79",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105767913987 Payper Inc.",
+            "transaction_id": "8e894beb-d71d-4359-b706-973f0ff7353b",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011463454460 iCash",
+            "transaction_id": "8f3fdd4c-0b56-4fc0-be7a-03ff128631cd",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 500.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           600221020322 20.00 CAD @ 1.000000",
+            "transaction_id": "b8d5c2ce-617c-4d17-8c06-80e37754cd70",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764776895 Payper Inc.",
+            "transaction_id": "e4d88531-ee64-4dd4-8e3e-d1522ba31f09",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2026-01-02T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764246971 Payper Inc.",
+            "transaction_id": "ea0b7502-43ee-4341-b17b-a1e868ea38e1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536506308248 10.00 CAD @ 1.000000",
+            "transaction_id": "e404440f-dbcf-45cf-8751-603eac972ed7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Branch Transaction OVERDRAFT INTEREST CHARGE",
+            "transaction_id": "92504d1e-0857-41e0-89d0-353f5ba1e885",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -1.69,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764237821 Payper Inc.",
+            "transaction_id": "86784bdc-0070-4649-9ad9-5e46ecc61102",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764269046 Payper Inc.",
+            "transaction_id": "9c2e50e4-ee0c-4c34-a341-31d6bb2e274f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536505632492 20.00 CAD @ 1.000000",
+            "transaction_id": "44fa3848-f6e8-41e6-87df-52e2eec5b891",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105763726582 Payper Inc.",
+            "transaction_id": "55297127-614f-46c2-b6cc-eadb65bed1bd",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105763557238 Payper Inc.",
+            "transaction_id": "5cf9d8ca-3e76-4055-a05e-f051c8a4b607",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Branch Transaction MONTHLY FIXED OVERDRAFT FEE",
+            "transaction_id": "706f3d07-5fda-43e3-8ae0-e647b6dd9412",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -5.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764253348 Payper Inc.",
+            "transaction_id": "17fd9517-725a-4dcc-932f-4f31bda65f28",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764199352 Payper Inc.",
+            "transaction_id": "1b0753d8-50b5-4291-b38b-417eb31f994c",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105764186044 Payper Inc.",
+            "transaction_id": "09e15fec-b0a7-483d-aa07-50580c523eb7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Branch Transaction SERVICE CHARGE",
+            "transaction_id": "2ffcd5c2-b95f-4eef-bdd8-d6db77e6196c",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -16.95,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-31T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011459814302 PayDirect Billing Solutio",
+            "transaction_id": "3ed20ebd-324c-46fd-807b-c46b9efa8160",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-30T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011460138724 PayDirect Billing Solutio",
+            "transaction_id": "03c08c4b-1358-4884-aa8b-f1940d4a6949",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 200.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-30T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000217026",
+            "transaction_id": "efd8d9ab-0533-458a-9a39-1473e971b883",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-30T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105760752499 Payper Inc.",
+            "transaction_id": "f5605a30-009b-4195-8993-f85122cd7f87",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -10.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000117244",
+            "transaction_id": "fe07543a-34aa-4ab4-8a66-fd2d7d9ef250",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -200.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758383890 Payper Inc.",
+            "transaction_id": "e7635f29-e070-464b-a519-11ba8f665015",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756242860 Payper Inc.",
+            "transaction_id": "c122523f-dc18-4b2c-b1d6-5389a8143932",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758398010 Payper Inc.",
+            "transaction_id": "c5db4ba1-bbd3-439c-8361-9964baf08d0f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758599591 Payper Inc.",
+            "transaction_id": "d6a91c4d-ebd3-422b-9571-832c759e8d8c",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758620405 Payper Inc.",
+            "transaction_id": "98149167-366e-4cdb-9466-d1868e077f84",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758685869 Payper Inc.",
+            "transaction_id": "9f5d928f-2e7c-439b-ab5e-5f851e9f0cf7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757209057 Payper Inc.",
+            "transaction_id": "855c2593-417e-45c1-ab26-beefe9c34d37",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758609359 Payper Inc.",
+            "transaction_id": "92b8f8f4-a80e-40f5-8e67-dd9fc295bb82",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757430593 Payper Inc.",
+            "transaction_id": "92e19218-1498-41d9-8d7d-4c50c8b73f93",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758533988 Payper Inc.",
+            "transaction_id": "8f0411b8-57f8-4032-bdd2-ad49629b3fa9",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking INTERNET TRANSFER 000000230840",
+            "transaction_id": "b9c773d1-4be4-43e2-a0c9-59fe81cc2104",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -40.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757731644 Payper Inc.",
+            "transaction_id": "b44d9cff-3168-4049-b668-dc0f24983dd2",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757695490 Payper Inc.",
+            "transaction_id": "bbd58788-72b7-48db-8e60-94ae3b290066",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757202990 Payper Inc.",
+            "transaction_id": "bfa67d4c-9359-4be8-b0db-5260c80ba354",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758584820 Payper Inc.",
+            "transaction_id": "b376b41e-0313-446f-a70a-89312a5059e9",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757728858 Payper Inc.",
+            "transaction_id": "b0dbc487-bb2a-41b6-bd1c-d33222f83fce",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757199822 Payper Inc.",
+            "transaction_id": "a6451e13-241d-4312-83b5-9536b0d606c4",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536000109350 25.00 CAD @ 1.000000",
+            "transaction_id": "07fa42d9-2aa1-4a5a-9652-b2269bd927d3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757724622 Payper Inc.",
+            "transaction_id": "098f165a-6439-4149-9a59-a1b5ca882ff8",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757228738 Payper Inc.",
+            "transaction_id": "1eae9e31-08aa-4011-b431-ada487449aa1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105760725272 Stake",
+            "transaction_id": "3d3631e4-9f8e-466e-a1b2-d2ceac613535",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757658670 Payper Inc.",
+            "transaction_id": "3a0d5085-a44d-4a17-9eaf-cb59c56c65d5",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011458629578 Zoraida Comia",
+            "transaction_id": "31157fcf-44ad-4fdc-9860-023d7a177eb1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 120.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536103307514 25.00 CAD @ 1.000000",
+            "transaction_id": "33951356-416b-4724-b1df-8d943ab19eb7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           535823939371 25.00 CAD @ 1.000000",
+            "transaction_id": "371c3fb4-2f88-46fa-af5b-affbf3c445b5",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758385870 Payper Inc.",
+            "transaction_id": "2d2779f2-38d6-4116-af65-ec4c80a7bf59",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757640076 Payper Inc.",
+            "transaction_id": "2ba31e98-2868-42ac-ba58-95e4825f5297",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536205929211 17.00 CAD @ 1.000000",
+            "transaction_id": "28ad51dd-4886-46f6-98b5-b1649716d1e3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -17.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757437268 Payper Inc.",
+            "transaction_id": "72ccea43-8855-450b-bf25-dc151d0f0ca3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011523316981 Payper Inc.",
+            "transaction_id": "79c90683-072b-4142-8542-9e349018cda7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 300.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757654037 Payper Inc.",
+            "transaction_id": "7b67e52c-1996-4080-864d-470ae605a928",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758576401 Payper Inc.",
+            "transaction_id": "83244041-7d67-4396-a2b1-89e038e7585a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536220105884 25.00 CAD @ 1.000000",
+            "transaction_id": "84a1c053-83fd-434b-979a-cc01bfbbb981",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536118492550 25.00 CAD @ 1.000000",
+            "transaction_id": "6304ac3d-b914-4571-bc43-7793d2debeb7",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105760663171 Payper Inc.",
+            "transaction_id": "458a471c-4fc5-4e3a-9165-1e50ea461705",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105758421574 Payper Inc.",
+            "transaction_id": "45df4c87-ac3b-4860-83f7-fe4287283f71",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           536017040568 25.00 CAD @ 1.000000",
+            "transaction_id": "48b98eca-69cc-4fda-a1f3-ef1c159d714e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757651092 Payper Inc.",
+            "transaction_id": "4addbc42-8b19-477b-b780-d3243c1587e6",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           535916360479 25.00 CAD @ 1.000000",
+            "transaction_id": "4cffc558-91a6-4e9d-9fad-cd42699afc84",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit VISA DIRECT CREDIT Bree*Loan         536102530187",
+            "transaction_id": "50acb995-ecc2-408b-b3d7-970d84ab1bd2",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 185.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105757647309 Payper Inc.",
+            "transaction_id": "5080d335-4781-4b17-9550-444ff0b54c2a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-29T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756192015 Payper Inc.",
+            "transaction_id": "50603943-0e99-44f4-9bc1-7c48c25eb2d0",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754876137 Payper Inc.",
+            "transaction_id": "76ea7a34-6eca-4152-a308-0281a75dced1",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT Easyhome easyfinancial",
+            "transaction_id": "6f69e28a-8090-4f12-bdf5-945baf22220f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -226.99,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756181343 Payper Inc.",
+            "transaction_id": "6dfff0a8-9f38-4a32-b7a2-1a02785e3702",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756215902 Payper Inc.",
+            "transaction_id": "687fb71d-b770-4dc0-90eb-a9943cf01e2d",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754888869 Payper Inc.",
+            "transaction_id": "2f19adf3-3de6-444b-aa97-3ef8f75ca5ae",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking E-TRANSFER        011521822515 Payper Inc.",
+            "transaction_id": "261dc5be-5d38-4480-8e69-75e33c9a92b3",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 180.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit INTL VISA DEB RETAIL PURCHASE BET 365           535723075242 25.00 CAD @ 1.000000",
+            "transaction_id": "3d3aae83-10b2-4042-be7f-2c279d9319b5",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105755048853 Payper Inc.",
+            "transaction_id": "44ca87f4-c9a6-4568-8d8b-9bca408b366e",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754774090 Payper Inc.",
+            "transaction_id": "1d3273fe-e854-4f62-bd38-007fd61dbd94",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -20.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754872137 Payper Inc.",
+            "transaction_id": "1d829f03-0a32-42a8-b3f0-d9d70f375a74",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754890760 Payper Inc.",
+            "transaction_id": "0e367bd9-5bd0-447c-97c5-b298b5eecee4",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756209557 Payper Inc.",
+            "transaction_id": "b19ac7f6-d918-4dd7-9ce6-21d8dcf2cafb",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT 15755111 ICASH",
+            "transaction_id": "8b8c8478-90f7-4f7f-8a8b-6390043669ad",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -152.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756019210 Payper Inc.",
+            "transaction_id": "8974d235-ee0b-4ad9-ab3a-b05ccf29052a",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -50.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PREAUTHORIZED DEBIT LENDDIRECT CORP",
+            "transaction_id": "a43ae2f4-d89e-47b6-b904-3926f36b13b4",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -70.40,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Electronic Funds Transfer PAY 09007717/202526 Canada Life (Canada)",
+            "transaction_id": "9729f952-98fd-4619-a3dc-a686d2a5800b",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": 1300.69,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Point of Sale - Visa Debit VISA DEBIT RETAIL  PURCHASE Bree*Loan         535808837733",
+            "transaction_id": "dcebe6e1-ff17-4161-ae23-09e2b610b404",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -126.99,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105754780696 Payper Inc.",
+            "transaction_id": "c380059a-7d9f-4483-a1c0-f89d266efa64",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -35.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756166508 Payper Inc.",
+            "transaction_id": "cc9361b9-f559-4b15-b77a-29dd9d2f503d",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
+            "transaction_type": 0,
+            "payment_channel": 0,
+            "TransactionCode": 0,
+            "amount": -25.00,
+            "CurrencyCode": "CAD",
+            "date": "2025-12-24T00:00:00",
+            "authorized_date": null
+        },
+        {
+            "name": "Internet Banking FULFILL REQUEST   105756028972 Payper Inc.",
+            "transaction_id": "e4cd3a92-a45a-41a3-9220-25a02ad6af3f",
+            "account_id": "7a8a2c37-c3f7-4883-bcbb-17bf0134478d",
+            "category": [
+                "",
+                ""
+            ],
+            "category_id": "",
